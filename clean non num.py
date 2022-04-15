@@ -16,7 +16,7 @@ file2 = file.iloc[:,num:]
 for i in file2.columns.values.tolist():
     file2[i] = pd.to_numeric(file2.loc[:,i].astype(str).str.replace(',',''), errors='coerce').fillna(0).astype(float)
 file3 = pd.concat([file.iloc[:,0:num], file2], axis=1)
-file3.to_csv('C:/Users/caoyu/OneDrive/Desktop/Research Dataset/cyescfdrdda.csv', encoding='utf-8')
+file3.to_csv('C:/Users/caoyu/OneDrive/Desktop/Research Dataset/work.csv', encoding='utf-8')
 
 
 '''
