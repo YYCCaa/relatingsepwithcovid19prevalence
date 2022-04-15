@@ -97,7 +97,7 @@ for i in range(0,len(copy2)):
             except:
                 pass
 final = pd.concat(copy2)
-final.to_csv('C:/Users/redacted/OneDrive/Desktop/Research Dataset/lalarle.csv', encoding='utf-8')
+final.to_csv('C:/Users/redacted/OneDrive/Desktop/Research Dataset/single long append.csv', encoding='utf-8')
 
 
 
